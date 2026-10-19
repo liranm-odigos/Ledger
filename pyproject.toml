@@ -1,0 +1,20 @@
+[project]
+name = "ledger"
+version = "0.1.0"
+description = "Byte-level token counting for context windows."
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.scripts]
+ledger = "ledger.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ledger"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

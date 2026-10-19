@@ -1,0 +1,16 @@
+Ignore this preamble. It sits above the first header and must not be counted.
+
+--- system
+You are a careful counter. Report only what the ledger can support. Do not invent rows, dates, or names.
+
+--- history
+User: How many crates came in on Monday?
+Assistant: The Monday line lists four crates from the harbor and one returned crate.
+
+--- retrieved
+Monday: four crates in, one crate out, bridge open.
+Tuesday: no delivery. The road was closed until noon.
+The clerk copied both lines and checked the sums twice.
+
+--- question
+How many crates remain if nothing else arrived after Tuesday?
